@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Buyer Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Firebase scripts already included -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Firebase compat scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore-compat.js"></script>
 </head>
 <body>
     <h2>Available Artworks</h2>
-    <div id="artworks-list">
-        <!-- Yahan artwork images aur names dynamically show honge -->
-    </div>
-    <script src="buyer.js"></script> <!-- optional JS -->
-</body>
+    <div id="artworks"></div>
 
+    <script src="buyer.js"></script>
+</body>
 </html>
