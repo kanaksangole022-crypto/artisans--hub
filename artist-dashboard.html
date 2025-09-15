@@ -9,13 +9,18 @@
     <!-- Firebase scripts already included -->
 </head>
 <body>
-    <h2>Upload Artwork</h2>
-    <form id="upload-form">
-        <input type="text" id="artwork-name" placeholder="Artwork Name" required><br><br>
-        <input type="file" id="artwork-image" accept="image/*" required><br><br>
-        <button type="submit">Upload</button>
-    </form>
+    <h2>Artist Dashboard</h2>
+<form id="artwork-form">
+    <input type="text" id="artwork-name" placeholder="Artwork Name" required><br><br>
+    <textarea id="artwork-description" placeholder="Description" rows="4" required></textarea><br><br>
+    <input type="number" id="artwork-price" placeholder="Price in ₹" required><br><br>
+    <input type="file" id="artwork-image" accept="image/*" required><br><br>
+    <textarea id="artwork-feedback" placeholder="Feedback (optional)" rows="2"></textarea><br><br>
+    <button type="submit">Upload</button>
+</form>
+<div id="message"></div>
     <script src="artist.js"></script> <!-- optional JS -->
 </body>
 
 </html>
+
