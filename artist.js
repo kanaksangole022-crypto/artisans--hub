@@ -55,3 +55,4 @@ function uploadArtwork(e) {
         document.getElementById('message').innerText = 'Please fill all required fields.';
     }
 }
+
